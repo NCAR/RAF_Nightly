@@ -42,8 +42,8 @@ done
 #
 for repo in aeros
 do
-	cd $repo
+	cd $repo/source
 	scons
 	scons deploy
-	cd ..
+	cd ../..
 done
