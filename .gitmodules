@@ -19,3 +19,6 @@
 [submodule "caledit"]
 	path = caledit
 	url = https://github.com/ncar/aircraft_caledit
+[submodule "aeros"]
+	path = aeros
+	url = https://github.com/ncar/aeros

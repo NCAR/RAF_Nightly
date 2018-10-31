@@ -27,12 +27,23 @@ do
 done
 
 #
-# scons targets with the --prefix option
+# scons targets without the --prefix option
 #
 for repo in caledit
 do
 	cd $repo
 	scons
 	scons install
+	cd ..
+done
+
+#
+# scons with 'deploy' target
+#
+for repo in aeros
+do
+	cd $repo
+	scons
+	scons deploy
 	cd ..
 done
