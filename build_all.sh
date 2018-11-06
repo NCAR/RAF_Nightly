@@ -29,7 +29,7 @@ done
 #
 # scons targets without the --prefix option
 #
-for repo in caledit
+for repo in caledit nimbus
 do
 	cd $repo
 	scons
