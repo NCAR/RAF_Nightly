@@ -10,6 +10,7 @@ fi
 #
 for repo in libraf ncplot
 do
+	echo "\nBuilding $repo ...."
 	cd $repo
 	make install
 	cd ..
@@ -20,6 +21,7 @@ done
 #
 for repo in vardb ncpp oap nc_utils
 do
+	echo "\nBuilding $repo ...."
 	cd $repo
 	scons --prefix=$JLOCAL
 	scons --prefix=$JLOCAL install
@@ -31,6 +33,7 @@ done
 #
 for repo in caledit nimbus
 do
+	echo "\nBuilding $repo ...."
 	cd $repo
 	scons
 	scons install
@@ -42,6 +45,7 @@ done
 #
 for repo in aeros
 do
+	echo "\nBuilding $repo ...."
 	cd $repo/source
 	scons
 	scons deploy
