@@ -1,5 +1,7 @@
 #!/bin/sh
 
+alias scons='scons-3 -j 4'
+
 if [ -z $JLOCAL ]; then
 	echo "Environment variable JLOCAL not set, setting to $JLOCAL."
 	export JLOCAL=/opt/local
@@ -8,7 +10,7 @@ fi
 #
 # Make sure libraf and vardb are done early
 #
-for repo in libraf ncplot
+for repo in ncplot
 do
 	echo "\nBuilding $repo ...."
 	cd $repo
@@ -19,7 +21,7 @@ done
 #
 # scons targets with the --prefix option
 #
-for repo in vardb ncpp oap nc_utils
+for repo in libraf vardb ncpp oap nc_utils
 do
 	echo "\nBuilding $repo ...."
 	cd $repo
