@@ -33,7 +33,7 @@ done
 #
 # scons targets without the --prefix option
 #
-for repo in caledit nimbus
+for repo in configedit caledit nimbus
 do
 	echo "\nBuilding $repo ...."
 	cd $repo

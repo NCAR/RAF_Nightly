@@ -25,3 +25,6 @@
 [submodule "nimbus"]
 	path = nimbus
 	url = https://github.com/ncar/nimbus
+[submodule "configedit"]
+	path = configedit
+	url = https://github.com/ncar/aircraft_config_edit
