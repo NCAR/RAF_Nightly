@@ -19,21 +19,9 @@ do
 done
 
 #
-# scons targets with the --prefix option
+# scons targets 
 #
-for repo in libraf vardb ncpp oap nc_utils
-do
-	echo "\nBuilding $repo ...."
-	cd $repo
-	scons --prefix=$JLOCAL
-	scons --prefix=$JLOCAL install
-	cd ..
-done
-
-#
-# scons targets without the --prefix option
-#
-for repo in configedit caledit nimbus
+for repo in vardb ncpp oap nc_utils configedit caledit nimbus
 do
 	echo "\nBuilding $repo ...."
 	cd $repo
