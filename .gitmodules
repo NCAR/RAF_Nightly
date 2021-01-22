@@ -1,30 +1,30 @@
 [submodule "libraf"]
 	path = libraf
-	url = https://github.com/ncar/libraf
+	url = ../libraf
 [submodule "vardb"]
 	path = vardb
-	url = https://github.com/ncar/aircraft_vardb
+	url = ../aircraft_vardb
 [submodule "nc_utils"]
 	path = nc_utils
-	url = https://github.com/ncar/aircraft_nc_utils
+	url = ../aircraft_nc_utils
 [submodule "ncplot"]
 	path = ncplot
-	url = https://github.com/ncar/ncplot
+	url = ../ncplot
 [submodule "ncpp"]
 	path = ncpp
-	url = https://github.com/ncar/ncpp
+	url = ../ncpp
 [submodule "oap"]
 	path = oap
-	url = https://github.com/ncar/aircraft_oap
+	url = ../aircraft_oap
 [submodule "caledit"]
 	path = caledit
-	url = https://github.com/ncar/aircraft_caledit
+	url = ../aircraft_caledit
 [submodule "aeros"]
 	path = aeros
-	url = https://github.com/ncar/aeros
+	url = ../aeros
 [submodule "nimbus"]
 	path = nimbus
-	url = https://github.com/ncar/nimbus
+	url = ../nimbus
 [submodule "configedit"]
 	path = configedit
-	url = https://github.com/ncar/aircraft_config_edit
+	url = ../aircraft_config_edit
