@@ -28,3 +28,6 @@
 [submodule "configedit"]
 	path = configedit
 	url = ../aircraft_config_edit
+[submodule "kml_tools"]
+	path = kml_tools
+	url = https://github.com/ncar/kml_tools
