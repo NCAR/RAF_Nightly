@@ -30,6 +30,12 @@ do
 	cd ..
 done
 
+# This is two directories down, so doesn't 
+cd kml_tools/acTrack2kml
+scons install
+cd ../..
+
+
 #
 # scons with 'deploy' target
 #
