@@ -27,7 +27,8 @@
 	url = ../nimbus
 [submodule "configedit"]
 	path = configedit
-	url = ../aircraft_config_edit
+    url = ../aircraft_config_edit
+    branch = main
 [submodule "kml_tools"]
 	path = kml_tools
 	url = https://github.com/ncar/kml_tools
