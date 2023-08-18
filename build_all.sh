@@ -36,8 +36,7 @@ for repo in ncpp oap nc_utils nimbus
 do
 	echo "\nPublishing $repo web pages ...."
 	cd $repo
-# need to implement scons publish target
-#	scons publish
+	scons publish
 	cd ..
 done
 
