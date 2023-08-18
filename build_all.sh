@@ -8,13 +8,12 @@ if [ -z $JLOCAL ]; then
 fi
 
 #
-# Make sure libraf and vardb are done early
-#
 for repo in ncplot
 do
 	echo "\nBuilding $repo ...."
 	cd $repo
 	make install
+	make publish
 	cd ..
 done
 
@@ -27,6 +26,18 @@ do
 	cd $repo
 	scons
 	scons install
+	cd ..
+done
+
+#
+# Publish web pages.
+#
+for repo in ncpp oap nc_utils nimbus
+do
+	echo "\nPublishing $repo web pages ...."
+	cd $repo
+# need to implement scons publish target
+#	scons publish
 	cd ..
 done
 
