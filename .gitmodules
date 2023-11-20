@@ -1,44 +1,44 @@
 [submodule "libraf"]
-	path = libraf
-	url = ../libraf
+    path = libraf
+    url = ../libraf
     branch = master
 [submodule "vardb"]
-	path = vardb
-	url = ../aircraft_vardb
+    path = vardb
+    url = ../aircraft_vardb
     branch = master
 [submodule "nc_utils"]
-	path = nc_utils
-	url = ../aircraft_nc_utils
+    path = nc_utils
+    url = ../aircraft_nc_utils
     branch = master
 [submodule "ncplot"]
-	path = ncplot
-	url = ../ncplot
+    path = ncplot
+    url = ../ncplot
     branch = master
 [submodule "ncpp"]
-	path = ncpp
-	url = ../ncpp
+    path = ncpp
+    url = ../ncpp
     branch = master
 [submodule "oap"]
-	path = oap
-	url = ../aircraft_oap
+    path = oap
+    url = ../aircraft_oap
     branch = master
 [submodule "caledit"]
-	path = caledit
-	url = ../aircraft_caledit
+    path = caledit
+    url = ../aircraft_caledit
     branch = master
 [submodule "aeros"]
-	path = aeros
-	url = ../aeros
+    path = aeros
+    url = ../aeros
     branch = master
 [submodule "nimbus"]
-	path = nimbus
-	url = ../nimbus
+    path = nimbus
+    url = ../nimbus
     branch = master
 [submodule "configedit"]
-	path = configedit
+    path = configedit
     url = ../aircraft_config_edit
     branch = main
 [submodule "kml_tools"]
-	path = kml_tools
-	url = https://github.com/ncar/kml_tools
+    path = kml_tools
+    url = ../kml_tools
     branch = master
