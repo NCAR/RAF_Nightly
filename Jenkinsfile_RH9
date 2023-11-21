@@ -8,11 +8,13 @@ pipeline {
   cron('H H(0-3) * * *')
   }
   stages {
+/*
     stage('Checkout scm') {
       steps {
         git 'eolJenkins:ncar/RAF_nightly'
       }
     }
+*/
     stage('Build') {
       steps {
         sh 'git submodule update --init --recursive'
