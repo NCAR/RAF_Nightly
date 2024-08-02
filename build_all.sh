@@ -20,7 +20,7 @@ done
 #
 # scons targets 
 #
-for repo in vardb ncpp oap nc_utils configedit caledit nimbus
+for repo in vardb ncpp oap nc_utils caledit nimbus
 do
 	echo "\nBuilding $repo ...."
 	cd $repo
