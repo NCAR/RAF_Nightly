@@ -17,6 +17,7 @@ pipeline {
 */
     stage('Build') {
       steps {
+        sh 'git submodule update --init --remote --recursive'
         sh('./build_all.sh')
       }
     }
