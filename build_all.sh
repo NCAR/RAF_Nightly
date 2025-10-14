@@ -20,7 +20,7 @@ done
 #
 # scons targets 
 #
-for repo in vardb ncpp oap nc_utils caledit nimbus
+for repo in vardb ncpp oap nc_utils caledit nimbus HeightOfTerrain
 do
 	echo "\nBuilding $repo ...."
 	cd $repo

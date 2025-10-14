@@ -42,3 +42,7 @@
     path = kml_tools
     url = ../kml_tools
     branch = master
+[submodule "HeightOfTerrain"]
+	path = HeightOfTerrain
+	url = ../HeightOfTerrain
+    branch = master
